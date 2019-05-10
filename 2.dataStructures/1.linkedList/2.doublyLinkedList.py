@@ -30,12 +30,19 @@ class doublyLinkedList:
 
     def insertAtStart(self, value):
         temp = node(value, self.start, None)
-
         if self.start == None:
             self.end = temp
         else:
             self.start.prev = temp
         self.start = temp
+
+    def insertAtEnd(self, value):
+        temp = node(value, None, self.end)
+        if self.end == None:
+            self.start = temp
+        else:
+            self.end.next = temp
+        self.end = temp
 
 dll = doublyLinkedList()
 dll.displayList()
