@@ -1,0 +1,10 @@
+librarian
+    add books
+    remove book
+customer
+    borrow
+    return
+    pay fees
+books
+cds
+journals

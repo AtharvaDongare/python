@@ -1,0 +1,9 @@
+elevator system using multithreading
+people arrive at random time
+number of elevators
+elevators open based on lead
+people specify direction up or down
+lowest floor > only up
+topmost floor > only down
+select destination in elevator
+elevator has capacity
